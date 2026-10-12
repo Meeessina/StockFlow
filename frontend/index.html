@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOMMUS</title>
+</head>
+    <body>
+        <main class="login-container">
+            <section class="login-imagem">
+                <img src="/frontend/assets/imagens/Rectangle 19.png" alt="">
+                
+            </section>
+             <section class="login-formulario">
+                   <img src="/frontend/assets/imagens/Group 13.png" alt="">
+                <form id="form-login">
+                    <input type="email"
+                    id="email"
+                    placeholder="E-mail"
+                    required>
+                    <input type="password"
+                    id="senha"
+                    placeholder="Senha"
+                    required>
+                    <div class="opcoes-login">
+                        <label>
+                        <input type="checkbox" >
+                        Lembrar-me  
+                        </label>
+                        <a href="#" id="text-senha">Esqueceu a senha?</a>
+                    </div>
+                    <p id="mensagem-erro"></p>
+                    <button type="submit">Entrar</button>
+                </form>
+                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+           </section>
+        </main>
+        <script src="js/login.js"></script>
+    </body>
+</html>

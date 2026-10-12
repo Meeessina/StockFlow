@@ -1,0 +1,75 @@
+body{
+    background-color:#092C4C ;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+.login-container{
+    display: flex;
+    width: 700px;
+    height: 470px;
+  
+}
+.login-imagem{
+    width: 50%;
+   background-color: #092C4C;
+   border: solid,2px;
+   
+}
+.login-formulario{
+    width:50% ;
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     
+     min-height: 60vh;
+}
+
+.login-imagem h1 {
+    display: flex;
+    justify-content: center;
+    min-height: 60vh;
+    align-items: center;
+}
+.opcoes-login{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+#form-login{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+   
+}
+#email,#senha{
+    border-radius: 5px,grey;
+    padding: 10px;
+}
+
+#form-login button{
+    height: 35px;
+    border-radius: 5px;
+    background-color: #092C4C;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#form-login button:hover{
+    background-color:#0b3974 ;
+}
+
+#text-senha{
+    color: #2F80ED;
+}
+.login-imagem img{
+    height: 105%;
+    width: 100%;
+}
